@@ -1,0 +1,15 @@
+{
+  "useConfig": true,
+  "reloadAfterDelete": true,
+  "dataToRemove": {
+    "appcache": true,
+    "cache": true,
+    "cacheStorage": true,
+    "cookies": true,
+    "fileSystems": true,
+    "indexedDB": true,
+    "localStorage": true,
+    "serviceWorkers": true,
+    "webSQL": true
+  }
+}

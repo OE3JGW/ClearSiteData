@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Clear Site Data",
+  "version": "1.0.0",
+  "description": "Delete all available data for the current site in one click.",
+  "action": {
+    "default_title": "Clear Site Data",
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "browsingData",
+    "scripting"
+  ]
+}
